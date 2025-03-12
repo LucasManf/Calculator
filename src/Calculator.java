@@ -133,7 +133,11 @@ public class Calculator implements ActionListener {
             }
         }
         if (e.getSource() == decButton) {
-            textField.setText(textField.getText().concat("."));
+            if (!textField.getText().contains(".")) {
+                textField.setText(textField.getText().concat("."));
+            } else {
+                return;
+            }
         }
 
         if (e.getSource() == addButton || e.getSource() == subButton || e.getSource() == mulButton || e.getSource() == divButton) {
