@@ -23,5 +23,5 @@ This is a simple **Calculator** application built using **Java Swing**. The calc
 
 Here’s a preview of how the calculator looks when running:
 
+![imagen](https://github.com/user-attachments/assets/f2e19049-823e-4253-8997-bd8568e02262)
 
-![imagen](https://github.com/user-attachments/assets/92084c0e-5785-4742-a8b2-95b6d298d800)
